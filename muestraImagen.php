@@ -38,6 +38,14 @@ and open the template in the editor.
                 
             </tbody>
         </table>
+        
+              <section>
+        <nav>
+            <ul>
+                <li><a href="index.php">Regresar al Menu Principal</a></li>
+            </ul>
+        </nav>
+    </section>
            
     </center>
 

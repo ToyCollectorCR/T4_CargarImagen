@@ -16,20 +16,22 @@
         $resultado =  $conexion->query($sql);
          
             if ($resultado){
-                echo "Imagen Enviada de Manera Correcta al Servidor";
+                header("location:../index.php");
 
             }else{
                 echo "Fallo al Enviar la Imagen al Servidor";
             }
    ?> 
    
-    <section>
+      <!--
+      <section>
         <nav>
             <ul>
                 <li><a href="../index.php">Regresar al Menu Principal</a></li>
             </ul>
         </nav>
     </section>
+    -->
       
       
   </body>

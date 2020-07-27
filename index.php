@@ -16,7 +16,14 @@ and open the template in the editor.
                 <input type="text" required="" name="nombre" placeholder="Ingrese Un Nombre" value=""/><br><br>
                 <input type="file" required="" name="imagen"/><br><br>
                 <input type="submit" value="Aceptar" />                
-            </form>        
+            </form> 
+              <section>
+        <nav>
+            <ul>
+                <li><a href="muestraImagen.php">Mostrar Imagenes Cargadas</a></li>
+            </ul>
+        </nav>
+    </section>
         </center>
         <?php
         // put your code here
