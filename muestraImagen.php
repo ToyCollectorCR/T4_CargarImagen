@@ -17,7 +17,6 @@ and open the template in the editor.
         <table>
             <thead>
                 <tr>
-                    <th>Nombre</th>
                     <th>Imagen</th>
                 </tr>
             </thead>
@@ -29,7 +28,6 @@ and open the template in the editor.
                   while($row = $resultado->fetch_assoc()){
                 ?>
                     <tr>
-                        <td><?php echo $row['nombre'];?></td>
                         <td> <img height="250px" src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>"/> </td>
                     </tr>
                 <?php 

@@ -5,6 +5,7 @@
         <group>
             <file>file:/C:/xampp/htdocs/T4_CargarImagen/DataBase/ConsultaImagenes.php</file>
             <file>file:/C:/xampp/htdocs/T4_CargarImagen/DataBase/conexionDB.php</file>
+            <file>file:/C:/xampp/htdocs/T4_CargarImagen/muestraImagen.php</file>
             <file>file:/C:/xampp/htdocs/T4_CargarImagen/index.php</file>
         </group>
     </open-files>

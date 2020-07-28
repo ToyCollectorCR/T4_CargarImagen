@@ -9,10 +9,10 @@
 
         require_once 'conexionDB.php';
 
-        $nombre = $_POST['nombre'];
+        
         $imagen = addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
 
-        $sql = "INSERT INTO timagenes(nombre,imagen) VALUES('$nombre','$imagen')";
+        $sql = "INSERT INTO timagenes(imagen) VALUES('$imagen')";
         $resultado =  $conexion->query($sql);
          
             if ($resultado){
@@ -23,16 +23,6 @@
             }
    ?> 
    
-      <!--
-      <section>
-        <nav>
-            <ul>
-                <li><a href="../index.php">Regresar al Menu Principal</a></li>
-            </ul>
-        </nav>
-    </section>
-    -->
-      
       
   </body>
 </html>

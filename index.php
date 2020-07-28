@@ -13,7 +13,6 @@ and open the template in the editor.
     <center><br><br>
             <form action="./DataBase/ConsultaImagenes.php" method="POST" enctype="multipart/form-data">
                 <h1>Carga de Imagenes al Servidor</h1>
-                <input type="text" required="" name="nombre" placeholder="Ingrese Un Nombre" value=""/><br><br>
                 <input type="file" required="" name="imagen"/><br><br>
                 <input type="submit" value="Aceptar" />                
             </form> 
@@ -25,7 +24,5 @@ and open the template in the editor.
         </nav>
     </section>
         </center>
-        <?php
-        // put your code here
-        ?>
+
     </body>  
